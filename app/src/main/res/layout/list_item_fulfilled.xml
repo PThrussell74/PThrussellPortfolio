@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="80dp"
+    android:layout_width="match_parent">
+
+
+    <TextView
+        android:id="@+id/itemText"
+        android:layout_width="224dp"
+        android:layout_height="76dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="10dp"
+        android:text="ItemText" />
+
+    <Button
+        android:id="@+id/viewFulfilledButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:text="View" />
+
+
+</FrameLayout>
